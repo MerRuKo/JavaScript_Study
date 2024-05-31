@@ -1,0 +1,143 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f0f0f0;
+    position: relative;
+}
+
+.hidden {
+    display: none;
+}
+
+#picDesc {
+    color: #8B4513;
+}
+
+#clock {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#login-form {
+    flex-direction: column;
+    align-items: center;
+}
+
+#login-form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #555;
+}
+
+#greeting {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#todo-form input {
+    width: 400px;
+    padding: 10px;
+    border: 5px solid #ccc;
+    border-radius: 30px;
+    font-size: 1rem;
+}
+
+#todo-form input::placeholder {
+    text-align: center;
+}
+
+#todo-list {
+    list-style: none;
+    padding: 0;
+}
+
+#todo-list li {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-list li button {
+    border: none;
+    background-color: #ff6b6b;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+#todo-list li button:hover {
+    background-color: #ff4c4c;
+}
+
+#quote {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1rem;
+}
+
+#quote span:first-child {
+    display: block;
+}
+
+#quote span:last-child {
+    display: block;
+    font-style: italic;
+}
+
+#weather {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+#weather span:first-child {
+    display: block;
+    margin-bottom: 10px;
+}
+
+body > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.5;
+}

@@ -20,8 +20,6 @@ function onGeoOk(position) {
     // 그냥.. 외워..
 }
 
-document.getElementById
-
 function onGeoErr() {
     console.log("where the hell are you?");
 }
