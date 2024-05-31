@@ -1,4 +1,4 @@
-const API_KEY = "50a654667e8fe918a361afa622592968"; // openweathermap 가입하니까 나한테 준 API 사용할 수 있게 해주는 고유키.
+const API_KEY = ""; // openweathermap 가입하니까 나한테 준 API 사용할 수 있게 해주는 고유키.
 // API키 하드코딩하고 깃허브에 올리면 GitGuardian에서 경고 메일 날아오니까,
 // 테스트 할땐 https://home.openweathermap.org/api_keys 여기서 직접 취득해서 붙여넣기 바람.
 
